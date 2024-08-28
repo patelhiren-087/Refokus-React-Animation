@@ -4,31 +4,31 @@ import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 function Work() {
   const [images, setImages] = useState([
     {
-      url: "https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d86ccd1552e692874437_Arqitel%20-%2016%209%20(B)-p-1080.webp",
+      url: "/assets/workImages/1.webp",
       top: "50%",
       left: "50%",
       isActive: false,
     },
     {
-      url: "https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d00aad489e305be67378_ProjectName%20-%2016%209%20(B)-p-1080.webp",
+      url: "/assets/workImages/2.webp",
       top: "56%",
       left: "44%",
       isActive: false,
     },
     {
-      url: "https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d8ccb75f918dc861c6c3_Layout%20Land%20-%204%203-p-1080.webp",
+      url: "/assets/workImages/3.webp",
       top: "45%",
       left: "56%",
       isActive: false,
     },
     {
-      url: "https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d84ab75f918dc8617448_YIR%202022%20-4%204.webp",
+      url: "/assets/workImages/4.webp",
       top: "43%",
       left: "40%",
       isActive: false,
     },
     {
-      url: "https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/669d6f1f10e02f2cb6320ad9_669ad38beb29c99f7dfe1353_mockup-v3%402x%202-p-1600-p-500.webp",
+      url: "/assets/workImages/5.webp",
       top: "60%",
       left: "53%",
       isActive: false,

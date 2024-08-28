@@ -16,21 +16,21 @@ function Products() {
     {
       title: "Layout Land",
       description:
-        "An interactive learning game that can educate and entertain you on the basics of web layouts in Webflow.",
+        "An interactive learnimages game that can educate and entertain you on the basics of web layouts in Webflow.",
       live: true,
       case: false,
     },
     {
       title: "YYR 2022",
       description:
-        "Our second year was filled with great events, exciting projects, awards and amazing people - so we made another showcase to celebrate.",
+        "Our second year was filled with great events, excitimages projects, awards and amazimages people - so we made another showcase to celebrate.",
       live: true,
       case: true,
     },
     {
       title: "Remind!",
       description:
-        "Remind's new website was designed and developed to be easy to maintain and ready to learn, reflecting their mission to connect students and families.",
+        "Remind's new website was designed and developed to be easy to maintain and ready to learn, reflectimages their mission to connect students and families.",
       live: true,
       case: true,
     },
@@ -50,16 +50,16 @@ function Products() {
       <div className="w-full h-full absolute top-0 pointer-events-none">
         <motion.div initial={{y: pos, x: "-50%"}} animate={{y: pos+`rem`}} className="window w-[32rem] h-[18rem] left-[48%] -translate-x-[50%] absolute overflow-hidden ">
           <motion.div animate={{y: -pos + `rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: .5}} className="w-full h-full">
-            <img className="h-full w-full object-cover" src="https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d8682a7bae884b4a8177_Arqitel%20-%2016%209%20(A).webp" alt="" />
+            <img className="h-full w-full object-cover" src="/assets/productImages/1.webp" alt="" />
           </motion.div>
           <motion.div animate={{y: -pos + `rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: .5}} className="w-full h-full">
-            <img className="h-full w-full object-cover" src="https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d8c8de92be5a9bdae6f1_Layout%20Land%20-%2016%209%20(A).webp" alt="" />
+            <img className="h-full w-full object-cover" src="/assets/productImages/2.webp" alt="" />
           </motion.div>
           <motion.div animate={{y: -pos + `rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: .5}} className="w-full h-full">
-            <img className="h-full w-full object-cover" src="https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d845d2ededb4ef0bae51_YIR%202022%20-%2016%209%20(A).webp" alt="" />
+            <img className="h-full w-full object-cover" src="/assets/productImages/3.webp" alt="" />
           </motion.div>
           <motion.div animate={{y: -pos + `rem`}} transition={{ease: [0.76, 0, 0.24, 1], duration: .5}} className="w-full h-full">
-            <img className="h-full w-full object-cover" src="https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/6697d5b25919f738bad2243f_Remind%20-%2016%209%20(A).webp" alt="" />
+          <img className="h-full w-full object-cover" src="/assets/productImages/4.webp" alt="Product" />
           </motion.div>
         </motion.div>
       </div>
